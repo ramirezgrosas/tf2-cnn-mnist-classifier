@@ -6,6 +6,8 @@ Convolutional neural network that classifies handwritten digits from the
 This project is based on the Week 2 programming assignment of the
 *Getting started with TensorFlow 2* course.
 
+![Sample of MNIST handwritten digits](data/mnist.png)
+
 ## Goal
 
 Build, compile and train a CNN on MNIST (60,000 training and 10,000 test images of
