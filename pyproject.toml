@@ -1,0 +1,22 @@
+[project]
+name = "tf2-cnn-mnist-classifier"
+version = "0.1.0"
+description = "CNN classifier for the MNIST handwritten digits dataset, built with TensorFlow 2 (Keras)."
+readme = "README.md"
+authors = [
+    { name = "Diego Ramirez Rosas", email = "ramirezgrosas@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "tensorflow>=2.21.0",
+]
+
+[project.scripts]
+tf2-cnn-mnist-classifier = "tf2_cnn_mnist_classifier:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
